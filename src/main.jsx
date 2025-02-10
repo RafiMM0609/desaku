@@ -8,14 +8,17 @@ import { BrowserRouter, Routes, Route } from 'react-router'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <Routes>
+    {/* <Routes>
       <Route path='/' element={<App />}/>
-    </Routes>
+    </Routes> */}
     <Routes>
       <Route path='/menu' element={<Menu />}/>
     </Routes>
     <Routes>
-      <Route path='/greet' element={<Greetings />}/>
+      <Route path='/' element={<Greetings />}/>
     </Routes>
+    {/* <Routes>
+      <Route path='/greet' element={<Greetings />}/>
+    </Routes> */}
   </BrowserRouter>,
 )
