@@ -21,12 +21,16 @@ function Greetings() {
   const [bravetext, setBravetext] = useState("WELCOME");
 
   async function signup(prevState, formData){
+    const formDataObj = Object.fromEntries(formData.entries());
+    console.log(formDataObj);
     const name = formData.get("name");
+    const male = formData.get("male")?true:false;
+    const gender = male?"mr":"mrs";
     try{
       const greeting_message = motivationalQuotes[Math.floor(Math.random() * motivationalQuotes.length)];
       setIsmessage(greeting_message);;
       setIsgreet(true);
-      setBravetext(`Please remember mr ${name}`)
+      setBravetext(`Please remember ${gender} ${name}`)
     } catch (err) {
       return err.toString();
     }
@@ -37,9 +41,15 @@ function Greetings() {
     <Navbar/>
     <div id='section1' className='hover:translate-y-1 duration-1000 flex flex-col mt-8 mb-4 border-2 rounded-lg'>
       <p id="greeting1" className='hover:animate-bounce hover:-translate-y-10 duration-1000 text-4xl font-bold'>{bravetext}</p>
-      <form id='signup-form' action={signupAction} className={`${isgreet ? "hidden" : "flex flex-col md:flex-row"} transition-all ease-linear duration-1000 m-2 p-1 items-center space-x-2`}>
+      <form id='signup-form' action={signupAction} className={`${isgreet ? "hidden" : "flex flex-col md:flex-row"} transition-all ease-linear duration-1000 m-2 p-1 items-start space-x-2`}>
         <label htmlFor='name' className='font-medium mb-1'>Name</label>
         <input className="mb-2 h-8 p-2 border-stone-50 border-2 rounded-lg" name='name' id='name' placeholder='your name...'/>
+        <div className='flex flex-row w-30 mb-4 space-x-0.5'>
+          <input id="male" className="peer/draft" type="radio" name="male"/>
+          <label htmlFor="draft" className="peer-checked/draft:text-sky-500 lg:mr-2 mr-6">Male</label>
+          <input id="female" className="peer/published" type="radio" name="female" />
+          <label htmlFor="published" className="peer-checked/published:text-sky-500">Female</label>
+        </div>
         <button className='flex items-center h-8'>Submit</button>
         {/* {!!message && <p>{message}</p>} */}
       </form>
