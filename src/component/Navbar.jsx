@@ -5,7 +5,7 @@ function Navbar() {
     const navigate = useNavigate();
     const [lsmenu, setLsmenu] = useState(false);
     return(
-        <div className='fixed top-2 left-10 xl:left-12 sm:fixed flex items-center justify-between xl:w-300 sm:w-60 p-2 rounded-xl border-b-4'>
+        <div className='fixed top-2 left-10 xl:left-12 sm:fixed flex items-center justify-between xl:w-300 sm:w-60 p-2 rounded-xl border-b-4 z-50'>
             <p className='mr-36 text-4xl font-extrabold'>
             RAF<span className="text-stone-100">FF</span>
             </p>

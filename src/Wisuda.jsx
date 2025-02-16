@@ -8,17 +8,17 @@ function Wisuda(){
     return(
         <>
         <Navbar/>
-        <div className={`items-center flex flex-col justify-center ${climg?"opacity-0 max-h-0 max-w-0 pointer-events-none":"opacity-100"} transition-opacity duration-500`}>
-            <div className={`${climg?"opacity-0 max-h-0 max-w-0":"opacity-100"} flex flex-row`}>
+        <div className={`items-center flex flex-col justify-center mt-16 ${climg?"opacity-0 max-h-0 max-w-0 pointer-events-none":"opacity-100"} transition-opacity duration-500`}>
+            <div className={`${climg?"opacity-0 max-h-0 max-w-0":"opacity-100"} flex flex-row mb-4`}>
                 <p className="animate-bounce text-2xl md:text-8xl">🎊</p>
                 <p className={`${load? "opacity-100": "opacity-30 -translate-y-10" } md:text-8xl transition-all duration-1000 font-bold text-4xl mx-1`}>Selamat Wisuda</p>
                 <p className="animate-bounce text-2xl md:text-8xl">🎊</p>
             </div>
             <p className={`${climg?"opacity-0 max-h-0 max-w-0":"opacity-100"} text-2xl font-bold`}>Sodara</p>
-            <p className={`${climg?"opacity-0 max-h-0 max-w-0":"opacity-100"} text-2xl font-bold`}>Rafi Muhammad Mahrus S.T</p>
+            <p className={`${climg?"opacity-0 max-h-0 max-w-0":"opacity-100"} text-2xl font-bold mb-4`}>Rafi Muhammad Mahrus S.T</p>
             <img 
                 src="https://picsum.photos/300" 
-                className={`${load?"opacity-100":"opacity-30  -translate-x-20"} transition-all duration-1000 w-60 h-80 rounded-t-md rounded-b-xl shadow-2xl`}
+                className={`${load?"opacity-100":"opacity-30  -translate-x-20"} transition-all duration-1000 w-60 h-80 rounded-t-md rounded-b-xl shadow-2xl mb-4`}
                 onLoad={() => setLoad(true)} 
                 onClick={() => setClimg(!climg)}
             />
