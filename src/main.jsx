@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import Menu from './Menu.jsx'
 import Greetings from './Greetings.jsx'
+import Wisuda from './Wisuda.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router'
 
 createRoot(document.getElementById('root')).render(
@@ -16,6 +17,9 @@ createRoot(document.getElementById('root')).render(
     </Routes>
     <Routes>
       <Route path='/' element={<Greetings />}/>
+    </Routes>
+    <Routes>
+      <Route path='/wisuda' element={<Wisuda />}/>
     </Routes>
     {/* <Routes>
       <Route path='/greet' element={<Greetings />}/>
