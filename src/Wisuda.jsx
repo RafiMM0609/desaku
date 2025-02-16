@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
-
+import Navbar from './component/Navbar';
 function Wisuda(){
     // const navigate = useNavigate();
     const [load, setLoad] = useState(false);
     const [climg, setClimg] = useState(false);
     return(
         <>
+        <Navbar/>
         <div className={`items-center flex flex-col justify-center ${climg?"opacity-0 max-h-0 max-w-0":"opacity-100"} transition-opacity duration-500`}>
             <div className={`${climg?"opacity-0 max-h-0 max-w-0":"opacity-100"} flex flex-row`}>
                 <p className="animate-bounce text-2xl md:text-8xl">🎊</p>
