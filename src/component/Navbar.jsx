@@ -10,13 +10,13 @@ function Navbar() {
             RAF<span className="text-stone-100">FF</span>
             </p>
             <div className='hidden xl:flex space-x-4'>
-                <button className='text-stone-50 flex items-center justify-center h-8 w-16'>
-                    About
+                <button onClick={()=>{navigate('/wisuda');}} className='text-stone-50 flex items-center justify-center h-8 w-24'>
+                    Wisuda
                 </button>
-                <button className='text-stone-50 flex items-center justify-center h-8 w-16'
+                <button className='text-stone-50 flex items-center justify-center h-8 w-24'
                     onClick={() => {navigate('/');}}
                 >
-                    Logout
+                    Greeting
                 </button>
             </div>
             <div className='xl:hidden'>

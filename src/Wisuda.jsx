@@ -12,8 +12,8 @@ function Wisuda(){
         const observer = new IntersectionObserver(
             ([entry])=>{
                 if(entry.isIntersecting){
-                    entry.target.classList.add('translate-x-2', 'opacity-100');
-                    entry.target.classList.add('-translate-x-40', '-translate-x-4', 'opacity-0');
+                    entry.target.classList.add('translate-x-2','md:translate-x-40' ,'opacity-100');
+                    entry.target.classList.remove('md:-translate-x-40', '-translate-x-4', 'opacity-0');
                 }
             },
             {threshold:0.8}
@@ -30,8 +30,8 @@ function Wisuda(){
         const observer = new IntersectionObserver(
             ([entry])=>{
                 if(entry.isIntersecting){
-                    entry.target.classList.add('-translate-x-2', 'opacity-100');
-                    entry.target.classList.remove('translate-x-40','translate-x-8', 'opacity-0');
+                    entry.target.classList.add('-translate-x-2', 'md:-translate-x-40' ,'opacity-100');
+                    entry.target.classList.remove('md:translate-x-40','translate-x-4', 'opacity-0');
                 }
             },
             {threshold:0.8}
@@ -66,24 +66,24 @@ function Wisuda(){
             <p className={`opacity-100 text-center`}
             >Selamat atas kelulusanmu! 🎓✨ Hari ini adalah bukti dari kerja keras, ketekunan, dan semangat juangmu selama ini. Perjalanan yang penuh tantangan telah berhasil kamu lalui, dan kini lembaran baru dalam hidup telah terbuka. Jangan pernah berhenti bermimpi dan teruslah melangkah menuju masa depan yang gemilang. Ingat, wisuda bukanlah akhir, tetapi awal dari petualangan baru yang lebih besar. Semoga ilmu dan pengalaman yang telah kamu dapatkan membawa keberkahan serta kesuksesan di setiap langkah yang kamu ambil. Selamat meraih mimpi dan menginspirasi banyak orang! 🚀👏</p>
         </div>
-        <div ref={picref} className={`transform transition-transform duration-1500 translate-x-8 opacity-0 items-center flex flex-row justify-center space-x-4 mt-16`}>
-            <img 
-                    src="https://picsum.photos/300" 
-                    className={`w-45 h-60 md:w-60 rounded-t-md rounded-b-xl shadow-2xl`}
-            />
-            <img 
-                    src="https://picsum.photos/300" 
-                    className={`w-45 h-60 md:w-60 rounded-t-md rounded-b-xl shadow-2xl`}
-        />
-        </div>
-        <div ref={picref2} className={`transform transition-transform duration-1500 -translate-x-4 opacity-0 items-center flex flex-row justify-center space-x-4 mt-16`}>
+        <div ref={picref} className={`transform transition-transform duration-1500 translate-x-4 md:translate-x-40 opacity-0 items-center flex flex-row justify-center space-x-4 mt-16`}>
             <img 
                     src="https://picsum.photos/300" 
                     className={`w-45 h-60 md:w-60 md:h-80 rounded-t-md rounded-b-xl shadow-2xl`}
             />
             <img 
                     src="https://picsum.photos/300" 
-                    className={`w-45 h-60 md:w-60 rounded-t-md rounded-b-xl shadow-2xl`}
+                    className={`w-45 h-60 md:w-60 md:h-80 rounded-t-md rounded-b-xl shadow-2xl`}
+        />
+        </div>
+        <div ref={picref2} className={`transform transition-transform duration-1500 -translate-x-4 md:-translate-x-40 opacity-0 items-center flex flex-row justify-center space-x-4 mt-16`}>
+            <img 
+                    src="https://picsum.photos/300" 
+                    className={`w-45 h-60 md:w-60 md:h-80 rounded-t-md rounded-b-xl shadow-2xl`}
+            />
+            <img 
+                    src="https://picsum.photos/300" 
+                    className={`w-45 h-60 md:w-60 md:h-80 rounded-t-md rounded-b-xl shadow-2xl`}
         />
         </div>
         </>

@@ -61,7 +61,7 @@ function Greetings() {
     <Navbar/>
     <div id='section1' className='hover:translate-y-1 duration-1000 flex flex-col mt-8 mb-4 border-2 rounded-lg'>
       <p id="greeting1" className='hover:animate-bounce hover:-translate-y-10 duration-1000 text-4xl font-bold'>{bravetext}</p>
-      <form id='signup-form' action={signupAction} className={`${isgreet ? "hidden" : "flex flex-col md:flex-row"} transition-all ease-linear duration-1000 m-2 p-1 items-start space-x-2`}>
+      <form id='signup-form' action={signupAction} className={`${isgreet ? "hidden pointer-events-none" : "flex flex-col md:flex-row"} transition-all ease-linear duration-1000 m-2 p-1 items-start space-x-2`}>
         <label htmlFor='name' className='font-medium mb-1'>Name</label>
         <input className="mb-2 h-8 p-2 border-stone-50 border-2 rounded-lg" name='name' id='name' placeholder='your name...'/>
         <div className='flex flex-row w-30 mb-4 space-x-0.5'>
@@ -88,7 +88,7 @@ function Greetings() {
           />
           <label htmlFor="female" className="peer-checked/published:text-sky-500">Female</label>
         </div>
-        <button className='flex items-center h-8'>Submit</button>
+        <button className='flex items-center h-8 text-amber-50'>Submit</button>
         {/* {!!message && <p>{message}</p>} */}
       </form>
       <div id='greeting2' className={`${isgreet ? "static" : "opacity-0 max-h-0 max-w-0"} transition-all duration-1000 ease-linear`}>
