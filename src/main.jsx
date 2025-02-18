@@ -2,6 +2,7 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
+import Boxncross from './Boxncross.jsx'
 import Menu from './Menu.jsx'
 import Greetings from './Greetings.jsx'
 import Wisuda from './Wisuda.jsx'
@@ -16,7 +17,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/menu' element={<Menu />}/>
     </Routes>
     <Routes>
-      <Route path='/' element={<Greetings />}/>
+      <Route path='/' element={<Boxncross />}/>
     </Routes>
     <Routes>
       <Route path='/wisuda' element={<Wisuda />}/>
