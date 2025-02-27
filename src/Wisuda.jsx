@@ -52,15 +52,15 @@ function Wisuda(){
         {/* <div className={`right-2 left-2 items-center flex flex-col justify-center mt-16 opacity-100 transition-opacity duration-500`}> */}
         <div className={`right-2 left-2 items-center flex flex-col justify-center mt-8 opacity-100 transition-opacity duration-500`}>
             <div className={`opacity-100 flex flex-row mb-4`}>
-                <p className="animate-bounce text-4xl md:text-8xl">❤️</p>
+                {/* <p className="animate-bounce text-4xl md:text-8xl">❤️</p> */}
                 <p className={`${load? "opacity-100": "opacity-30 -translate-y-10" } md:text-8xl transition-all duration-1000 font-bold text-4xl mx-1`}>Terimakasih</p>
                 <p className="animate-bounce text-4xl md:text-8xl">❤️</p>
             </div>
-            {/* <p className={`opacity-100 text-2xl font-bold`}>Untuk</p> */}
-            <p className={`opacity-100 text-l font-bold mb-1`}>Ibu Dr. Elviera Gamelia S.K.M., M.Kes (dosen pembimbing I)</p>
+            <p className={`opacity-100 text-2xl font-bold mb-4`}>Dear, my lectures ❤️</p>
+            {/* <p className={`opacity-100 text-l font-bold mb-1`}>Ibu Dr. Elviera Gamelia S.K.M., M.Kes (dosen pembimbing I)</p>
             <p className={`opacity-100 text-l font-bold mb-1`}>Ibu Windri Lesmas Rubai, S.Gz., M.P.H. (dosen pembimbing II)</p>
             <p className={`opacity-100 text-l font-bold mb-1`}>⁠Ibu Arrum Firda Ayu Maqfiroch, S.K.M., M.Kes (dosen penguji I) </p>
-            <p className={`opacity-100 text-l font-bold mb-4`}>⁠Ibu Ifa Najiyati, S.Kp.G., MPH. <br/> (dosen penguji II)</p>
+            <p className={`opacity-100 text-l font-bold mb-4`}>⁠Ibu Ifa Najiyati, S.Kp.G., MPH. <br/> (dosen penguji II)</p> */}
             <img 
                 src="https://livlimcygmeebknjkbuq.supabase.co/storage/v1/object/sign/img-ku/foto_3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWcta3UvZm90b18zLmpwZyIsImlhdCI6MTc0MDYyNjA5NCwiZXhwIjoxNzQxMjMwODk0fQ.w3n0hSps4YKeJoFarQN-443aoDZmKbhisEwp6hdyslU" 
                 className={`${load?"opacity-100":"opacity-30  -translate-x-20"} transition-all duration-1000 w-60 h-80 rounded-t-md rounded-b-xl shadow-2xl mb-4`}
@@ -72,7 +72,8 @@ function Wisuda(){
             <p className={`opacity-100 text-center text-2xl`}
             >🤍</p>
             <p className={`opacity-100 text-left`}
-            >Saya Anggita Yunia Nugraheni, mahasiswa peminatan Promosi Kesehatan angkatan 2021. Dengan ini mengucapkan terimakasi yang tak terhingga kepada Ibu Dosen Promkes UNSOED :</p>
+            >Saya Anggita Yunia Nugraheni, dari peminatan Promosi Kesehatan angkatan 2021 Universitas Jenderal Soedirman yang Alhamdulillah saat ini sudah official S.K.M 🥹🙏🏻 <br />
+Dengan ini mengucapkan terimakasi yang tak terhingga kepada Ibu Dosen Promkes UNSOED :</p>
             <br />
             <p className={`opacity-100 text-left`}
             >1. Ibu Dr. Elviera Gamelia S.K.M., M.Kes (dosen pembimbing I)</p>
@@ -84,17 +85,20 @@ function Wisuda(){
             >4. ⁠Ibu Ifa Najiyati, S.Kp.G., MPH. (dosen penguji II)</p>
             <br />
             <p className={`opacity-100 text-justify`}
-            >Alhamdulillah, qodarullah kemarin pada tanggal 25 Februari 2025 menjadi hari bahagia bagi saya dan keluarga. Saya dan keluarga sangat berterima kasih atas bimbingan dan dukungan yang Ibu berikan selama ini kepada saya. Terimakasi atas ilmu yang diberikan terkait Promosi Kesehatan baik materi maupun paraktik. Saya ucapkan terimakasi juga atas bimbingan dan arahannya dari awal penyusunan tugas akhir skripsi saya hingga akhir. 
-
-            Terimakasi atas waktu yang diberikan untuk proses bimbingan terkhusus untuk Ibu Elviera dan Ibu Windri selaku dosen pembimbing saya. Saya ucapkan terimakasi juga atas saran dan masukan yang diberikan Ibu Arrum dan Ibu Ifa selaku dosen penguji saya. 
-            
-            Saya sangat bersyukur bisa dipertemukan dan mendapat dosen-dosen seperti Ibu yang alhamdulillah selalu memudahkan dan membimbing selama masa perkuliahan saya hingga penyusunan skripsi. Saya tidak akan pernah melupakan kesempatan belajar dari Ibu dan pengalaman yang telah saya dapatkan. Terima kasih atas segalanya, Bu. Saya akan selalu mengingat Ibu sebagai salah satu orang yang telah membersamai saya untuk mencapai tujuan saya. Semoga ilmu yang telah saya dapatkan bisa menjadi keberkahan dunia akhirat dan bermanfaat bagi orang lain. 
-            
-            Doa dan harapan juga semoga Ibu Elviera, Bu Windri, Bu Arrum dan Bu Ifa senantiasa mendapat keberkahan dari Allah, sehat selalu, bahagia, dan dilancarkan segala urusannya. Teriiring doa dan ucapan terimakasi yang tak terhingga dari kedua orang tua saya untuk Ibu Dosen Promkes Bu Elviera, Bu Windri, Bu Ifa, dan Bu Arrum</p>
+            >Alhamdulillah, qodarullah kemarin pada tanggal 25 Februari 2025 menjadi hari bahagia bagi saya dan keluarga. Saya dan keluarga sangat berterima kasih atas bimbingan dan dukungan yang Ibu berikan selama ini kepada saya. Terimakasi atas ilmu yang diberikan terkait Promosi Kesehatan baik materi maupun paraktik. Saya ucapkan terimakasi juga atas bimbingan dan arahannya dari awal penyusunan tugas akhir skripsi saya hingga akhir. <br /> <br />
+            Terimakasi atas waktu yang diberikan untuk proses bimbingan terkhusus untuk Ibu Elviera dan Ibu Windri selaku dosen pembimbing saya. Saya ucapkan terimakasi juga atas saran dan masukan yang diberikan Ibu Arrum dan Ibu Ifa selaku dosen penguji saya. <br /> <br />
+            Saya sangat bersyukur bisa dipertemukan dan mendapat dosen-dosen seperti Ibu Elviera, Bu Arrum, Bu Ifa, dan Bu Windri yang alhamdulillah selalu memudahkan dan membimbing selama masa perkuliahan saya hingga penyusunan skripsi. Saya tidak akan pernah melupakan kesempatan belajar dari Ibu dan pengalaman yang telah saya dapatkan. Terima kasih atas segalanya, Bu. Saya akan selalu mengingat Ibu sebagai salah satu orang yang telah membersamai saya untuk mencapai tujuan saya. Semoga ilmu yang telah saya dapatkan bisa menjadi keberkahan dunia akhirat dan bermanfaat bagi orang lain. <br /> <br />
+            Doa dan harapan juga semoga Ibu Elviera, Bu Windri, Bu Arrum dan Bu Ifa senantiasa mendapat keberkahan dari Allah, sehat selalu, bahagia, dan dilancarkan segala urusannya. Teriiring doa dan ucapan terimakasi yang tak terhingga dari kedua orang tua saya untuk Ibu Dosen Promkes Bu Elviera, Bu Windri, Bu Ifa, dan Bu Arrum.  <br /> <br />
+            Ini ada sedikit kenang-kenangan untuk ibu sebagai ucapan rasa syukur dan terimakasi dari saya dan keluarga. Tidak sebanyak dan sebaik ilmu dan pengalaman yang ibu berikan ke saya tetapi semoga bermanfaat ya Ibu. Mungkin bisa Ibu kenakan juga secara bersamaan di event bukber/perkumpulan/ atau apapun supaya dosen promkes unsoed yang sudah kompak semakin kompak 😄 <br /> <br />
+            </p>
             <p className={`opacity-100 text-justify`}
-            >Sekali lagi saya pribadi mengucapkan terimakasi yang tak terhingga kepada seluruh Ibu Dosen Promosi Kesehatan UNSOED</p>
-            <p className={`opacity-100 text-justify text-2xl`}
+            >Sekali lagi saya pribadi mengucapkan terimakasi yang tak terhingga kepada seluruh Ibu Dosen Promosi Kesehatan UNSOED </p>
+            <p className={`opacity-100 text-justify text-xl`}
             >🤍🙏🏻</p>
+            <p className={`opacity-100 text-justify`}
+            >
+            with love, <br />
+            Anggita Yunia Nugraheni, S.K.M.</p>
         </div>
         <div ref={picref} className={`transform transition-transform duration-1500 translate-x-4 md:translate-x-40 opacity-0 items-center flex flex-row justify-center space-x-4 mt-16`}>
             {/* <img 
