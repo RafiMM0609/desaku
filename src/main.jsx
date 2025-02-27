@@ -17,10 +17,10 @@ createRoot(document.getElementById('root')).render(
       <Route path='/menu' element={<Menu />}/>
     </Routes>
     <Routes>
-      <Route path='/' element={<Boxncross />}/>
+      <Route path='/' element={<Wisuda />}/>
     </Routes>
     <Routes>
-      <Route path='/wisuda' element={<Wisuda />}/>
+      <Route path='/wisuda' element={<Boxncross />}/>
     </Routes>
     {/* <Routes>
       <Route path='/greet' element={<Greetings />}/>
