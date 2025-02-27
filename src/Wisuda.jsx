@@ -91,7 +91,7 @@ function Wisuda(){
             Saya sangat bersyukur bisa dipertemukan dan mendapat dosen-dosen seperti Ibu yang alhamdulillah selalu memudahkan dan membimbing selama masa perkuliahan saya hingga penyusunan skripsi. Saya tidak akan pernah melupakan kesempatan belajar dari Ibu dan pengalaman yang telah saya dapatkan. Terima kasih atas segalanya, Bu. Saya akan selalu mengingat Ibu sebagai salah satu orang yang telah membersamai saya untuk mencapai tujuan saya. Semoga ilmu yang telah saya dapatkan bisa menjadi keberkahan dunia akhirat dan bermanfaat bagi orang lain. 
             
             Doa dan harapan juga semoga Ibu Elviera, Bu Windri, Bu Arrum dan Bu Ifa senantiasa mendapat keberkahan dari Allah, sehat selalu, bahagia, dan dilancarkan segala urusannya. Teriiring doa dan ucapan terimakasi yang tak terhingga dari kedua orang tua saya untuk Ibu Dosen Promkes Bu Elviera, Bu Windri, Bu Ifa, dan Bu Arrum</p>
-            <p className={`opacity-100 text-center`}
+            <p className={`opacity-100 text-justify`}
             >Sekali lagi saya pribadi mengucapkan terimakasi yang tak terhingga kepada seluruh Ibu Dosen Promosi Kesehatan UNSOED</p>
             <p className={`opacity-100 text-justify text-2xl`}
             >🤍🙏🏻</p>
