@@ -56,17 +56,45 @@ function Wisuda(){
                 <p className={`${load? "opacity-100": "opacity-30 -translate-y-10" } md:text-8xl transition-all duration-1000 font-bold text-4xl mx-1`}>Terimakasih</p>
                 <p className="animate-bounce text-4xl md:text-8xl">❤️</p>
             </div>
-            <p className={`opacity-100 text-2xl font-bold`}>Untuk</p>
-            <p className={`opacity-100 text-2xl font-bold mb-1`}>Ibu Anggita Yunia</p>
-            <p className={`opacity-100 text-2xl font-bold mb-4`}>Ibu Eni</p>
+            {/* <p className={`opacity-100 text-2xl font-bold`}>Untuk</p> */}
+            <p className={`opacity-100 text-l font-bold mb-1`}>Ibu Dr. Elviera Gamelia S.K.M., M.Kes (dosen pembimbing I)</p>
+            <p className={`opacity-100 text-l font-bold mb-1`}>Ibu Windri Lesmas Rubai, S.Gz., M.P.H. (dosen pembimbing II)</p>
+            <p className={`opacity-100 text-l font-bold mb-1`}>⁠Ibu Arrum Firda Ayu Maqfiroch, S.K.M., M.Kes (dosen penguji I) </p>
+            <p className={`opacity-100 text-l font-bold mb-4`}>⁠Ibu Ifa Najiyati, S.Kp.G., MPH. <br/> (dosen penguji II)</p>
             <img 
-                src="https://livlimcygmeebknjkbuq.supabase.co/storage/v1/object/sign/img-ku/foto_1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWcta3UvZm90b18xLmpwZyIsImlhdCI6MTc0MDYyMDc3NiwiZXhwIjoxNzQxMjI1NTc2fQ.8E_-RRqDDs-4WJTnLizMENmiprVP9vNZMnOQ0Aj9Ffo" 
+                src="https://livlimcygmeebknjkbuq.supabase.co/storage/v1/object/sign/img-ku/foto_3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWcta3UvZm90b18zLmpwZyIsImlhdCI6MTc0MDYyNjA5NCwiZXhwIjoxNzQxMjMwODk0fQ.w3n0hSps4YKeJoFarQN-443aoDZmKbhisEwp6hdyslU" 
                 className={`${load?"opacity-100":"opacity-30  -translate-x-20"} transition-all duration-1000 w-60 h-80 rounded-t-md rounded-b-xl shadow-2xl mb-4`}
                 onLoad={() => setLoad(true)} 
                 onClick={() => setClimg(!climg)}
             />
+            <p className={`opacity-100 text-center font-semibold`}
+            >Assalamualaikum Ibu Dosen Promkes yang saya sayangi</p>
+            <p className={`opacity-100 text-center text-2xl`}
+            >🤍</p>
+            <p className={`opacity-100 text-left`}
+            >Saya Anggita Yunia Nugraheni, mahasiswa peminatan Promosi Kesehatan angkatan 2021. Dengan ini mengucapkan terimakasi yang tak terhingga kepada Ibu Dosen Promkes UNSOED :</p>
+            <br />
+            <p className={`opacity-100 text-left`}
+            >1. Ibu Dr. Elviera Gamelia S.K.M., M.Kes (dosen pembimbing I)</p>
+            <p className={`opacity-100 text-left`}
+            >2. Ibu Windri Lesmas Rubai, S.Gz., M.P.H. (dosen pembimbing II)</p>
+            <p className={`opacity-100 text-left`}
+            >3. ⁠Ibu Arrum Firda Ayu Maqfiroch, S.K.M., M.Kes (dosen penguji I) </p>
+            <p className={`opacity-100 text-left`}
+            >4. ⁠Ibu Ifa Najiyati, S.Kp.G., MPH. (dosen penguji II)</p>
+            <br />
+            <p className={`opacity-100 text-justify`}
+            >Alhamdulillah, qodarullah kemarin pada tanggal 25 Februari 2025 menjadi hari bahagia bagi saya dan keluarga. Saya dan keluarga sangat berterima kasih atas bimbingan dan dukungan yang Ibu berikan selama ini kepada saya. Terimakasi atas ilmu yang diberikan terkait Promosi Kesehatan baik materi maupun paraktik. Saya ucapkan terimakasi juga atas bimbingan dan arahannya dari awal penyusunan tugas akhir skripsi saya hingga akhir. 
+
+            Terimakasi atas waktu yang diberikan untuk proses bimbingan terkhusus untuk Ibu Elviera dan Ibu Windri selaku dosen pembimbing saya. Saya ucapkan terimakasi juga atas saran dan masukan yang diberikan Ibu Arrum dan Ibu Ifa selaku dosen penguji saya. 
+            
+            Saya sangat bersyukur bisa dipertemukan dan mendapat dosen-dosen seperti Ibu yang alhamdulillah selalu memudahkan dan membimbing selama masa perkuliahan saya hingga penyusunan skripsi. Saya tidak akan pernah melupakan kesempatan belajar dari Ibu dan pengalaman yang telah saya dapatkan. Terima kasih atas segalanya, Bu. Saya akan selalu mengingat Ibu sebagai salah satu orang yang telah membersamai saya untuk mencapai tujuan saya. Semoga ilmu yang telah saya dapatkan bisa menjadi keberkahan dunia akhirat dan bermanfaat bagi orang lain. 
+            
+            Doa dan harapan juga semoga Ibu Elviera, Bu Windri, Bu Arrum dan Bu Ifa senantiasa mendapat keberkahan dari Allah, sehat selalu, bahagia, dan dilancarkan segala urusannya. Teriiring doa dan ucapan terimakasi yang tak terhingga dari kedua orang tua saya untuk Ibu Dosen Promkes Bu Elviera, Bu Windri, Bu Ifa, dan Bu Arrum</p>
             <p className={`opacity-100 text-center`}
-            >🎉🎓 Dengan penuh sukacita dan rasa syukur, saya mengucapkan terima kasih yang sebesar-besarnya kepada Bapak/Ibu Dosen atas bimbingan, ilmu, dan dukungan yang telah diberikan selama masa studi saya. 🙏✨ Tanpa arahan dan motivasi dari Bapak/Ibu, saya tidak akan mampu menyelesaikan perjalanan akademik ini dengan baik. 🚀📚 Semoga Bapak/Ibu senantiasa diberikan kesehatan dan kesuksesan dalam setiap langkah. 🌟🌈 Terima kasih atas segala dedikasi dan inspirasi yang telah diberikan! 🎊🙌</p>
+            >Sekali lagi saya pribadi mengucapkan terimakasi yang tak terhingga kepada seluruh Ibu Dosen Promosi Kesehatan UNSOED</p>
+            <p className={`opacity-100 text-justify text-2xl`}
+            >🤍🙏🏻</p>
         </div>
         <div ref={picref} className={`transform transition-transform duration-1500 translate-x-4 md:translate-x-40 opacity-0 items-center flex flex-row justify-center space-x-4 mt-16`}>
             {/* <img 
@@ -74,13 +102,13 @@ function Wisuda(){
                     className={`w-45 h-60 md:w-60 md:h-80 rounded-t-md rounded-b-xl shadow-2xl`}
             /> */}
             <img 
-                    src="https://livlimcygmeebknjkbuq.supabase.co/storage/v1/object/sign/img-ku/foto_2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWcta3UvZm90b18yLmpwZyIsImlhdCI6MTc0MDYyMDgxNywiZXhwIjoxNzQxMjI1NjE3fQ.27fRY0l748a5TMc8yCpLrthL7DG5FL-DNhO8LeKFoa0" 
+                    src="https://livlimcygmeebknjkbuq.supabase.co/storage/v1/object/sign/img-ku/foto_2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWcta3UvZm90b18yLmpwZyIsImlhdCI6MTc0MDYyNjEyOSwiZXhwIjoxNzQxMjMwOTI5fQ.5ixmDFLYHdi37HuD0bt42o7SgmYtZtnaTRkfLKLz2vE" 
                     className={`h-100 w-75 md:w-60 md:h-80 rounded-t-md rounded-b-xl shadow-2xl`}
             />
         </div>
         <div ref={picref2} className={`transform transition-transform duration-1500 -translate-x-4 md:-translate-x-40 opacity-0 items-center flex flex-row justify-center space-x-4 mt-16`}>
             <img 
-                    src="https://livlimcygmeebknjkbuq.supabase.co/storage/v1/object/sign/img-ku/foto_3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWcta3UvZm90b18zLmpwZyIsImlhdCI6MTc0MDYyMDgzMCwiZXhwIjoxNzQxMjI1NjMwfQ.7w9UNfIfili1omr4UWS78nk0TfU8rb1PiMH6YwRUUx8" 
+                    src="https://livlimcygmeebknjkbuq.supabase.co/storage/v1/object/sign/img-ku/foto_1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWcta3UvZm90b18xLmpwZyIsImlhdCI6MTc0MDYyNjEzOCwiZXhwIjoxNzQxMjMwOTM4fQ.xrzyIqpL0PoWLYDFGoZgxRulH70SkKsJtJwpgv9UBZU" 
                     className={`h-100 w-75 md:w-60 md:h-80 rounded-t-md rounded-b-xl shadow-2xl`}
             />
             {/* <img 
